@@ -1,0 +1,21 @@
+---
+const v = "version beta 0.5";
+const pageTitle = "About this site on the netz";
+const done = false;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a href="/">home</a>
+    <h1>Astro</h1>
+    <h3>My Astro blog</h3>
+    {done && <p>I'm done ✌️</p>}
+    <p>{v}</p>
+  </body>
+</html>
