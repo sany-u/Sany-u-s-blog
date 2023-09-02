@@ -2,6 +2,7 @@
 const v = "version beta 0.5";
 const pageTitle = "About this site on the netz";
 const done = false;
+
 ---
 
 <html lang="en">
@@ -15,7 +16,12 @@ const done = false;
     <a href="/">home</a>
     <h1>Astro</h1>
     <h3>My Astro blog</h3>
-    {done && <p>I'm done ✌️</p>}
     <p>{v}</p>
+    <style>
+      h1 {
+        color: purple;
+        font-size: 4rem;
+      }
+    </style>
   </body>
 </html>
