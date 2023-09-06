@@ -22,6 +22,8 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 
 3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
 
+4. **Using css**: Lately (the last few days) I've started to use css to use better fonts on the website.
+
 ## What's next
 
 I'll (try to) finish the Astro tutorial, and then keep ....
