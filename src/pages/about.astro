@@ -2,6 +2,7 @@
 const v = "version beta 0.5";
 const pageTitle = "About this site on the netz";
 const done = false;
+import Navigation from '../components/Navigation.astro'
 
 ---
 
@@ -13,14 +14,14 @@ const done = false;
     <title>{pageTitle}</title>
   </head>
   <body style="background-color:LightBlue">
-    <a href="/">home</a>
     <h1>Astro things</h1>
     <h3>My Astro blog</h3>
     <p>{v}</p>
     <style>
      .p {
       color:  #b2beb5; 
-     } 
+     }
+     
     </style>
   </body>
 </html>

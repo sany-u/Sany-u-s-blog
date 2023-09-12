@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  background-color: lightblue;
 
 
 }
@@ -22,7 +22,7 @@ h1 {
   font-size: 2.5rem;
 }
 @font-face {
-  font-family: 'providence-bold';
+  font-family: 'JetBrainsMono-Medium';
   src: url('/fonts/jetbrains/JetBrainsMono-Medium.ttf');
   }
 
