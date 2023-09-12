@@ -27,3 +27,5 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 ## What's next
 
 I'll (try to) finish the Astro tutorial, and then keep ....
+
+<link rel="stylesheet" href="../../global.css" />
