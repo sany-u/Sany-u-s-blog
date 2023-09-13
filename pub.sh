@@ -1,5 +1,3 @@
-bun run build
-git commit -a 
-git push
+bun run build 
 surge dist
 

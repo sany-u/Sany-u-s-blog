@@ -2,7 +2,7 @@
 const v = "version beta 0.5";
 const pageTitle = "About this site on the netz";
 const done = false;
-import Navigation from '../components/Navigation.astro'
+import Navigation from '../components/Navigation.astro';
 import '../global.css';
 
 ---
@@ -15,6 +15,7 @@ import '../global.css';
     <title>{pageTitle}</title>
   </head>
   <body>
+    <Navigation/>
     <h1>Astro things</h1>
     <h3>My Astro blog</h3>
     <p>{v}</p>
