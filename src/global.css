@@ -16,7 +16,10 @@ body {
 }
 @font-face {
   font-family: 'JetBrainsMono-Medium';
-  src: url('/fonts/jetbrains/JetBrainsMono-Medium.ttf');
+  src: url('/fonts/jetbrains/JetBrainsMono-Medium.ttf') format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 h1 { 
