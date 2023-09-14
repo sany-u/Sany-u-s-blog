@@ -1,3 +1,3 @@
-bun run build 
+npm run build 
 surge dist
 

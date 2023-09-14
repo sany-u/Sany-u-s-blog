@@ -12,6 +12,8 @@
   "dependencies": {
     "@astrojs/mdx": "^1.0.3",
     "astro": "^3.0.13",
+    "markdown": "^0.5.0",
+    "mdx-to-md": "^0.3.2",
     "surge": "^0.23.1"
   }
 }
