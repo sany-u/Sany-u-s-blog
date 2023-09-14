@@ -1,8 +1,10 @@
 import { defineConfig } from 'astro/config';
+import { exampleRemarkPlugin } from './example-remark-plugin.mjs';
+import mdx from '@astrojs/mdx'
 
-import mdx from "@astrojs/mdx";
-
-// https://astro.build/config
 export default defineConfig({
-  integrations: [mdx()]
+  integrations: [mdx()],
+  markdown: {
+    remarkPlugins: [exampleRemarkPlugin]
+  },
 });
