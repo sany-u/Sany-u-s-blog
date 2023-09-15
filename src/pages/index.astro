@@ -1,7 +1,9 @@
 ---
 const v = "beta 0.5";
 import Navigation from '../components/Navigation.astro';
-import '../global.css'
+import '../global.css';
+import nav from '../components/nav.astro';
+import footer from '../components/footer.astro'
 ---
 
 <html lang="en">
@@ -13,13 +15,11 @@ import '../global.css'
     <title>Sanyu's blog Homepage</title>
   </head>
   <body>
-    <Navigation/> 
-    <h1>Astro thing</h1>
+    <h1>Asting</h1>
     <h3>My Astro blog</h3>
     <p><a href="/">home</a></p>
     <p><a href="/about/">about</a></p>
-    <p>v {v}</p>
-
-
+    <p>v {v} </p>
+    <footer/>
   </body>
 </html>
